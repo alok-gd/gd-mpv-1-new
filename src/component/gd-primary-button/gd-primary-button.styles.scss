@@ -1,0 +1,56 @@
+.gd-primary-button{
+    border: 3px solid #FF8100;
+    background-color: #FF8100;
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+    border-radius: 20px;
+    height: 34px;
+    width: 134px;
+    min-height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    .upper-dot{
+        width: 6px;
+        top: -3px;
+        height: 3px;
+        left: 33px;
+        background-color: #FF8100;
+        position: absolute;
+    }
+    .lower-dot{
+        bottom: -3px;
+        left: 88px;
+        width: 6px;
+        height: 3px;
+        background-color: #FF8100;
+        position: absolute;
+    }
+    .label{
+        font-size: 14px;
+        font-family: 600px;
+        color: white;
+        margin-right: 26.5px;
+        
+    }
+    .icon{
+        width: 22.8px;
+        height: 16.27px;
+        color: white;
+        margin-left: 27.1px;   
+    }
+}
+.gd-primary-button:hover{
+    background-color:transparent;
+    .upper-dot{
+        background-color: #090a0c;
+    }
+    .lower-dot{
+        background-color: #090a0c;
+    }
+}
+
+
